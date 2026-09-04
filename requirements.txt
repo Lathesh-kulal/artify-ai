@@ -1,6 +1,9 @@
+streamlit
 torch
 torchvision
-streamlit
-Pillow
+pillow
 opencv-python
 numpy
+matplotlib
+requests
+tqdm

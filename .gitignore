@@ -1,3 +1,28 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Outputs
 outputs/*
+!outputs/.gitkeep
+
+# Models (download separately)
+models/*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
